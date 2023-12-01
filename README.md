@@ -19,7 +19,7 @@ Before running the script, make sure to install the required dependencies:
 !pip install langdetect
 ```
 ## Usage
-1. Clone the repository:
+1. Clone the repository: https://github.com/OxaDefrizal/ml_transcribe_video.git
 2. Run the script:
 3. Enter the YouTube video URL when prompted.
 4. The script downloads the audio, transcribes it into text, and saves it in a text file (e.g., Hasil Transcribe_en.txt). The language is automatically detected.
