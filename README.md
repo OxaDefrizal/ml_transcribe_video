@@ -17,8 +17,25 @@ Before running the script, make sure to install the required dependencies:
 !pip install pytube
 !pip install git+https://github.com/openai/whisper.git
 !pip install langdetect
+```
+## Usage
+1. Clone the repository:
+2. Run the script:
+3. Enter the YouTube video URL when prompted.
+4. The script downloads the audio, transcribes it into text, and saves it in a text file (e.g., Hasil Transcribe_en.txt). The language is automatically detected.
 
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+## Dependencies
+* PyTube: Fetch YouTube content.
+* Whisper ASR: OpenAI's ASR model.
+* Langdetect: Detects the language of the transcribed text.
 
-python transcribe_youtube.py
+## How it Works
+1. YouTube Video Input: User provides the YouTube video URL.
+2. Audio Download: PyTube downloads the audio stream.
+3. Transcription: Whisper ASR transcribes the audio.
+4. Language Detection: Langdetect determines the language.
+5. Text Output: Transcribed text saved in a file with language info.
+
+
+## License
+Contributions are welcome. Report issues or suggest improvements via GitHub.
