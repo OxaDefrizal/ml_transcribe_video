@@ -1,41 +1,43 @@
-# YouTube Transcription using Python
+# Transkripsi YouTube dengan Python
 
-This repository provides a simple Python script to transcribe audio from YouTube videos into text. The script uses the PyTube library to download audio from a YouTube video, the Whisper ASR (Automatic Speech Recognition) model for transcription, and Langdetect for language detection.
+Repository ini menyediakan skrip sederhana menggunakan Python untuk mentranskripsi audio dari video YouTube menjadi teks. Skrip ini menggunakan perpustakaan PyTube untuk mengunduh audio dari video YouTube, model Whisper ASR (Automatic Speech Recognition) dari OpenAI untuk mentranskripsi, dan Langdetect untuk deteksi bahasa.
 
-## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Dependencies](#dependencies)
-4. [How it Works](#how-it-works)
-5. [License](#license)
+## Repositori Referensi
+Proyek ini terinspirasi dan diadaptasi dari [javedali99/audio-to-text-transcription](https://github.com/javedali99/audio-to-text-transcription). Terima kasih khusus kepada penulis asli yang menyediakan dasar untuk alat transkripsi ini.
 
-## Installation
+## Daftar Isi
+1. [Instalasi](#installation)
+2. [Penggunaan](#usage)
+3. [Ketergantungan](#dependencies)
+4. [Cara Kerja](#how-it-works)
+5. [Lisensi](#license)
 
-Before running the script, make sure to install the required dependencies:
+## Instalasi
+
+Sebelum menjalankan skrip, pastikan untuk menginstal ketergantungan yang diperlukan:
 
 ```bash
 !pip install pytube
 !pip install git+https://github.com/openai/whisper.git
 !pip install langdetect
 ```
-## Usage
-1. Clone the repository: https://github.com/OxaDefrizal/ml_transcribe_video.git
-2. Run the script:
-3. Enter the YouTube video URL when prompted.
-4. The script downloads the audio, transcribes it into text, and saves it in a text file (e.g., Hasil Transcribe_en.txt). The language is automatically detected.
+## Penggunaan
+1. Klon repository ini:  https://github.com/OxaDefrizal/ml_transcribe_video.git
+2. Jalankan skrip:
+3. Masukkan URL video YouTube ketika diminta.
+4. Skrip akan mengunduh audio, mentranskripsikannya menjadi teks, dan menyimpannya dalam file teks (misalnya, Hasil Transkripsi_id.txt). Bahasa secara otomatis terdeteksi.
 
-## Dependencies
-* PyTube: Fetch YouTube content.
-* Whisper ASR: OpenAI's ASR model.
-* Langdetect: Detects the language of the transcribed text.
+## Ketergantungan
+* PyTube: Mengambil konten YouTube.
+* Whisper ASR: Model ASR dari OpenAI.
+* Langdetect: Mendeteksi bahasa dari teks yang ditranskripsi.
 
-## How it Works
-1. YouTube Video Input: User provides the YouTube video URL.
-2. Audio Download: PyTube downloads the audio stream.
-3. Transcription: Whisper ASR transcribes the audio.
-4. Language Detection: Langdetect determines the language.
-5. Text Output: Transcribed text saved in a file with language info.
+## Cara Kerja<
+1. Input Video YouTube: Pengguna memberikan URL video YouTube.
+2. Unduh Audio: PyTube mengunduh aliran audio.
+3. Transkripsi: Whisper ASR mentranskripsi audio.
+4. Deteksi Bahasa: Langdetect menentukan bahasa.
+5. Output Teks: Teks yang ditranskripsi disimpan dalam file dengan informasi bahasa.
 
-
-## License
-Contributions are welcome. Report issues or suggest improvements via GitHub.
+## Lisensi
+Kontribusi dipersilakan. Laporkan masalah atau usulkan perbaikan melalui GitHub.
