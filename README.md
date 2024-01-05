@@ -2,6 +2,13 @@
 
 Repository ini menyediakan skrip sederhana menggunakan Python untuk mentranskripsi audio dari video YouTube menjadi teks. Skrip ini menggunakan Libary PyTube untuk mengunduh audio dari video YouTube, model Whisper ASR (Automatic Speech Recognition) dari OpenAI untuk mentranskripsi, dan Langdetect untuk deteksi bahasa.
 
+### Anggota Kelompok
+|**No**| **Nama** | **NIM** |
+|------|----------|---------|
+| 1 | Abdurrahman Ridho | 21.11.4341 |
+| 2 | Oxa Defrizal Khasay | 21.11.4388 |
+| 3 | Hamim Nur Khamid | 21.11.4395 |
+
 ## Repositori Referensi
 Proyek ini terinspirasi dan diadaptasi dari [javedali99/audio-to-text-transcription](https://github.com/javedali99/audio-to-text-transcription). Terima kasih khusus kepada penulis asli yang menyediakan dasar untuk alat transkripsi ini.
 
