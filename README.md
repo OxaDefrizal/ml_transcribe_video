@@ -39,7 +39,7 @@ Sebelum menjalankan skrip, pastikan untuk menginstal ketergantungan yang diperlu
 * Whisper ASR: Model ASR dari OpenAI.
 * Langdetect: Mendeteksi bahasa dari teks yang ditranskripsi.
 
-## Cara Kerja<
+## Cara Kerja
 1. Input Video YouTube: Pengguna memberikan URL video YouTube.
 2. Unduh Audio: PyTube mengunduh aliran audio.
 3. Transkripsi: Whisper ASR mentranskripsi audio.
